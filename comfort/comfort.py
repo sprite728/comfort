@@ -3,7 +3,7 @@ import math
 class Comfort(object):
 
     @classmethod
-    def get_comfort_indices(temp_air=25.0, temp_radiant=25.0, air_vel=0.1, rel_humidity=50, met=1.2, clo=0.5, wme=0.0):
+    def get_comfort_indices(cls, temp_air=25.0, temp_radiant=25.0, air_vel=0.1, rel_humidity=50, met=1.2, clo=0.5, wme=0.0):
         """
         Args:
             temp_air (float): air temperature

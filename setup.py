@@ -21,7 +21,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='comfort', 
-    version='1.0.1',  # Required
+    version='1.0.2',  # Required
     description='Compute basic thermal comfort indices',  # Required
     url='https://github.com/sprite728/comfort',  # Optional
     author='Chuan-Che (Jeff) Huang',  # Optional
